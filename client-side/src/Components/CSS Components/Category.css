@@ -1,0 +1,36 @@
+.Footer-Category-Container{
+    background: rgb(222, 221, 221);
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.Category-Container{
+    display:flex;
+    gap: 0 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Category-Container button{
+    margin-top:30px;
+    background: white;
+    border: white;
+    width:10rem;
+    border-radius: 20px;
+    transition: transform .4s;
+}
+
+.Category-Container button:hover{
+    transform: translateY(-5px);
+}
+
+
+
+.Category-Container button p{
+    margin-top: .5rem;
+    font-weight: 600;
+}
+/* .Category-Container .category{
+    background: #000;
+    margin-top: 20px;
+    /* margin: 0 40px; */

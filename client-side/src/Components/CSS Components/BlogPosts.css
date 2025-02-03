@@ -1,0 +1,44 @@
+.Post_Container{
+  margin-top: 1rem;
+    /* border-radius: 10rem 50rem ;
+  background: rgb(68, 68, 173);  */
+    height: 100%;
+}
+
+
+.Post_Container ,.Post_Container_Content{
+    text-align: center;
+    /* margin: 40px; */
+    
+}
+
+
+.sticky-Button{
+  position:absolute;
+  right: 8rem;
+  bottom: 8rem;
+}
+
+.sticky-Button button {
+  cursor: pointer;
+  text-align: center;
+  background: rgb(68, 68, 173);
+  border-radius: 50%;
+  border: 2px solid rgb(68, 68, 173);
+  position: fixed;
+  transition:transform .4s;
+  width: 70px; 
+  height: 70px;
+}
+
+.sticky-Button button:hover{
+  transform: translateY(-8px);
+}
+
+.Post_cards .card{
+  transition: all 0.5s ease;
+}
+
+.Post_cards .card:hover{
+  box-shadow: 6px 5px 10px rgb(141, 141, 141);
+}

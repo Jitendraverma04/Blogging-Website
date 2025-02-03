@@ -1,0 +1,37 @@
+.Dashboard-Container .Dashboard-content{
+    display: flex;
+    justify-content: center;
+}
+
+.Dashboard-Container .Dashboard-content .container{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid rgb(86, 178, 161);
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+.Dashboard-content .User-name , .User-email, .User-posts{
+    margin: 12px;
+    text-align: center;
+    display: flex;
+    gap:1rem;
+}
+
+.Dashboard-content .button{
+    display: flex;
+    justify-content: center;
+}
+.LogOut button , .Update button{
+    margin: 20px;
+    background:rgb(86, 178, 161);
+    border:rgb(86, 178, 161);;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 20px;
+}

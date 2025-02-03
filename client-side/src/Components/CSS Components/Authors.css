@@ -1,0 +1,21 @@
+
+.container {
+    text-align: center;
+    margin: 2rem;
+}
+
+.container .Authors-Content .Authors-Cards{
+display: flex;   
+flex-wrap: wrap;
+gap: 2rem;
+justify-content: center;
+margin:1rem;
+}
+
+.container .Authors-Content .Authors-Cards .card{
+    padding: 1px 2rem;
+}
+
+.container .Authors-Content .Authors-Cards .card h3{
+    margin-left: 1.5rem;
+}

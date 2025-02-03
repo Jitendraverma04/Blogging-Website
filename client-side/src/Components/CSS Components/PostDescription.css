@@ -1,0 +1,37 @@
+.PostDescription{
+    background: rgb(68, 68, 173);
+    color:black;
+    text-align: center;
+    border-radius: 40px;
+    margin: 2rem;
+    padding: 1rem;
+}
+.Post-Author{
+    /* display: flex;
+    justify-content: center;
+    gap: 2rem; */
+}
+/* .Post-Author img{
+    height:3rem;
+    width:3rem;
+    border-radius:50%
+} */
+/* .Post-Img{
+    background: #000;
+} */
+.Post-Img img{
+    margin-top: 12px;
+    height: 20rem;
+    width: 22rem;
+    border-radius: 20px;
+}
+.Post-Author,.Post-Title{
+    margin: 25px 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+.Post-Desc p{
+    padding: 22px;
+    font-size: 20px;
+
+}

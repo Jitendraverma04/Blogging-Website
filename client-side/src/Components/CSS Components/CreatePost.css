@@ -1,0 +1,62 @@
+.CreatePost-Container{
+    margin: 2rem 0rem;
+    height:100vh;
+    width: 100%;
+    text-align: center;
+}
+.CreatePost{
+    display: flex;
+    justify-content: center;
+}
+.CreatePost-Container form{
+    width: 100%;
+}
+
+.CreatePost-Container form input{
+    margin: 2% 0;
+    padding: 8px 32px;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+
+.CreatePost-Form .SelectCategory{
+    margin: 12px;
+}
+
+.CreatePost-Form .SelectCategory select{
+    text-overflow: ellipsis;
+    color: black;
+    font-size: 18px;
+}
+
+.CreatePost-Container form  .ChooseFile{
+    /* margin: 5% 0 0 0; */
+    position: relative;
+    top: 8%;
+}
+.CreatePost-Container form button{
+    position: relative;
+    top: 5%;
+}
+
+
+
+.Create-post-login{
+    display:flex;
+    flex-direction: column;
+    height:50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Create-post-login .Content{
+    padding-top: 8rem;
+}
+.Create-post-login .Login{
+    margin: 20px;
+}
+.Create-post-login .Login Link{
+color: green;
+}
+
